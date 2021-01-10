@@ -1,0 +1,181 @@
+/* ----------------------------------------------- */
+/* MEDIA QUERIES */
+/* ----------------------------------------------- */
+
+/* 
+Section 0: Header
+Section 1: Features
+Section 2: Meals
+Section 3: How it eorks
+Section 4: Cities
+Section 5: Testimonials
+Section 6: Pricing
+Section 7: Form
+Section 8: Footer
+*/
+
+
+/* From 1024px to 1200 px */
+/* ----------------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {padding: 0 2%}
+}
+
+
+/* ----------------------------------------------- */
+/* From 768px to 1023 px */
+
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px}
+    section {padding: 60px 0}
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box {margin-top: 10px}
+    .steps-box:last-child {margin-top: 10px}
+    .works-step {margin-bottom: 40px}
+    .works-step:last-of-type {margin-bottom: 60px}
+
+    .app-photo {width: 50%}
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city-feature {font-size: 90%}
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-price {font-size: 250%}
+
+    .contact-form {
+        width: 80%}
+
+}
+
+
+/* ----------------------------------------------- */
+/* From 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+
+    /* General setup */
+
+    body {font-size: 16px;}
+    section {padding: 40px 0}
+
+    .row {padding: 0 4%}
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0%;
+        text-align: center;
+    }
+
+    h1 {font-size: 180%}
+    h2 {font-size: 140%}
+
+    /* Section 0 */
+
+    .hero-text-box {padding: 0 4%}
+    .main-nav {visibility: hidden;}
+
+    /* Section 1 */
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .icon-big {
+        margin: 0 auto;
+    }
+
+
+    /* Section 3 */
+
+    .steps-box:first-child {
+        text-align: center
+    }
+
+    .app-photo {width: 35%}
+
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        font-size: 110%;
+        padding: 4px;
+    }
+
+    .works-step {margin-bottom: 20px}
+    .works-step:last-of-type {margin-bottom: 20px}
+
+
+    .btn-app img {
+        height: 45px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-app img:first-child {margin-bottom: 25px}
+
+
+      /* Section 4 */
+
+      .box img {
+        width: 50%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    /* Section 5 */
+
+    blockquote:before {
+        content: ""
+    }
+
+    /* Section 6 */
+
+    #pricing ul {text-align: left}
+
+    .plan-pros {
+        display: inline-block;
+        margin: 0 auto;}
+
+    /* Section 8 */
+
+    .footer-nav,    
+    .social-links {
+        float: none;
+    }
+}
+
+
+/* ----------------------------------------------- */
+/* From 0 to 480px */
+
+@media only screen and (max-width : 480px) {
+    section {padding: 25px 0}
+
+    .contact-form {width: 100%}
+}
+
+
+
+
+
