@@ -91,8 +91,37 @@ Section 8: Footer
     /* Section 0 */
 
     .hero-text-box {padding: 0 4%}
-    .main-nav {visibility: hidden;}
 
+
+    .main-nav {display: none;} 
+
+    .main-nav {
+        float: left;
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+    
+    .main-nav li {display: block}
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .sticky .main-nav {margin-top: 10px}
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0} 
+
+    .sticky .mobile-nav-icon {margin-top: 10px}
+    .sticky .mobile-nav-icon ion-icon {color: #555;}
     /* Section 1 */
 
     .long-copy {
